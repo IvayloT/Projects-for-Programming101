@@ -73,4 +73,4 @@ def reduce_file(path):
     print (parts)
     return "/" + "/".join(parts)
 
-    this is promqnata vuv faila oshte
+    this is promqnata vuv faila oshte dsadas
