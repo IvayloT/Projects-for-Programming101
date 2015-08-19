@@ -7,9 +7,6 @@ class BankAccount():
 
         self.make_history("Account was created")
 
-    def make_history(self, event):
-        self.history.append(event)
-
     def __str__(self):
         return "Bank account for {} with balance of {} {}" .format(self.name, self.balance, self.currency)
 
@@ -47,6 +44,3 @@ class BankAccount():
             return True
         else:
             return False
-
-    def history(self):
-        return self.history
